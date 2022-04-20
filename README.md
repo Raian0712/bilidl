@@ -1,7 +1,9 @@
-#BiliDL
-A ytdl clone for bilibili. Yes. Time to play bilibili videos through Discord bots.
+BiliDL
+====
+A ytdl clone for bilibili that no one asked so you can play bilibili video through Discord bots. Also command line support.
 
-#Sample
+Sample
+====
 Playing bilibili video in Discord.
 ```js
 const bilidl = require('bilidl');
@@ -17,7 +19,13 @@ const bilidl = require('bilidl');
 const info = await bilidl.getInfo(url);
 ```
 
-#Video Info JSON
+To use the command line, replace {url} with the video url.
+```shell
+node biliDownload.js --url={url}
+```
+
+Video Info JSON
+====
 Fields：
 
 | Field   | Type                          				 | Content  			| Note                                           |
