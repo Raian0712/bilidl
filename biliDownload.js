@@ -14,7 +14,7 @@ async function biliDownload(url) {
     views: '',
     duration: '',
     uploaded_at: '',
-    channel: ''
+    channel: '',
   }
 
   await new Promise(async (resolve, reject) => {
